@@ -11,7 +11,7 @@
 body {
 	background-color: #D4A190;
 	width: 100%;
-	max-width: 960px;
+	
 }
 
 .container {
@@ -21,6 +21,14 @@ body {
 	font-variant: normal;
 	font-weight: 400;
 	line-height: 35px;
+	text-align: center;
+}
+.floating-box {
+	display: inline-block;
+	width: 450px;
+	height: 200px;
+	margin: auto;
+	border: 3px solid black;
 }
 h3 {
 	color: #000080;
@@ -28,47 +36,32 @@ h3 {
 	line-height: 35px;
 }
 #wins {
-	float: left;
-	margin: 0px;
+	
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 15px;
 	padding-right: 15px;
-	width: 100%;
-	max-width: 450px;
 }
 #current-word-section {
-	float: right;
-	margin: 0px;
+	
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 15px;
 	padding-right: 15px;
-	clear: left;
-	width: 100%;
-	max-width: 450px;
-
 }
 #guesses-remaining-section {
-	float: left;
-	margin: 0px;
+	
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 15px;
 	padding-right: 15px;
-	width: 100%;
-	max-width: 450px;
 }
 #guessed-letter-section {
-	float: right;
-	margin: 0px;
+	
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 15px;
 	padding-right: 15px;
-	clear: left;
-	width: 100%;
-	max-width: 450px;
 }
 
 .footer {
