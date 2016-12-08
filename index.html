@@ -7,6 +7,8 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- Latest compiled and minified CSS -->
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 			<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 			<link rel="stylesheet" type="text/css" href="Assets/css/reset.css">
 			
@@ -14,24 +16,50 @@
 
 <body>
 	<div class="jumbotron">
-		<div class="container">
 		<h1>HANGMAN for Horse Lovers!</h1>
 		</div>
 	</div>
 
-	<div class="image"></div>
-		<div class="game-info">
-			<p>Press any key to get started!</p>
-			<p>Current word: </p>
-			<p>Number of guesses left: </p>
-			<p>Letters guessed: </p>
-			<p>Wins!: </p>
-			<p>Losses: </p>		
+	<div class="container">
+		<div id="game-section">
+			<h2>Press any key to get started!</h2>
+
+		<!-- <div class="row">
+			<div class="col-md-6">Wins!</div>
+			<div class="col-md-6">Current Word:</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6">Number of Guesses Left:</div>
+			<div class="col-md-6">Letters Already Guessed:</div>
+		</div> -->
+
+		<div id="wins">
+				<h3 class="section-title">Wins</h3>
+					<div id="wins"></div>
+		</div>
+
+		<div id="current-word-section">
+			<h3 class="section-title">Current Word</h3>
+				<div id="current-word"></div>
+		</div>
+
+		<div id="guesses-remaining-section">
+			<h3 class="section-title">Number of Guesses Remaining</h3>
+				<div id="guesses-remaining"></div>
+		</div>
+		
+		<div id="guessed-letter-section">
+			<h3 class="section-title">Letters Already Guessed</h3>
+				<div id="guessed-letters"></div>
+			</div>
+		
+		</div> 
 	</div>
 
 	<div class="footer">
-		<p>Thanks for playing!</p>
-		<p>Copyright 2016: Jay M. Frimmel</p>
+		<h3>Thanks for playing!</h3>
+		<p><small>&copy; Copyright 2016: Jay M. Frimmel</small></p>
 	</div>
 
 	<div>
